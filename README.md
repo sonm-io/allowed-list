@@ -1,1 +1,1 @@
-# allowed-list
+# whitelist repo for SONM project
