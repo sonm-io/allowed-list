@@ -3,5 +3,10 @@
     "allowed_hashes" :[
       "sha256:be0cd392e45be79ffeffa6b05338b98ebb16c87b255f48e297ec7f98e123905c"
     ]
+  },
+  "docker.io/library/httpd": {
+    "allowed_hashes": [
+      "sha256:b5f21641a9d7bbb59dc94fb6a663c43fbf3f56270ce7c7d51801ac74d2e70046"
+    ]
   }
 }
