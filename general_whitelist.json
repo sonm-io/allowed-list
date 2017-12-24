@@ -8,5 +8,10 @@
     "allowed_hashes": [
       "sha256:b5f21641a9d7bbb59dc94fb6a663c43fbf3f56270ce7c7d51801ac74d2e70046"
     ]
+  },
+  "sonm/monero-cpu-miner": {
+    "allowed_hashes": [
+      "sha256:7b42fda3e8f09b303a97ff75aba1c7a5b1c78b4ee22a1828928dcc70bc39e95c"
+    ]
   }
 }
