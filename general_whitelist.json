@@ -18,5 +18,10 @@
     "allowed_hashes": [
       "sha256:eb6703673e4f4523fa1db843de0d819d851d54225628fd38922a50a34219a47c"
     ]
-  }
+  },
+  "sonm/eth-claymore": {
+    "allowed_hashes": [
+      "sha256:b5f9a9e47fa319607ed339789ef6692d4937ae5910b86e0ab929d035849e491e"
+    ]
+  } 
 }
