@@ -13,5 +13,10 @@
     "allowed_hashes": [
       "sha256:7b42fda3e8f09b303a97ff75aba1c7a5b1c78b4ee22a1828928dcc70bc39e95c"
     ]
+  },
+  "sonm/monero-gpu": {
+    "allowed_hashes": [
+      "sha256:eb6703673e4f4523fa1db843de0d819d851d54225628fd38922a50a34219a47c"
+    ]
   }
 }
