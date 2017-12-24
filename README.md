@@ -1,6 +1,12 @@
 # whitelist repo for SONM project
 
-## Monero-CPU
+## sonm/monero-cpu-miner:latest
+
+enviroment:
+
+*username* - email of account on minergate.com
+
+## sonm/sonm/monero-gpu:latest
 
 enviroment:
 
