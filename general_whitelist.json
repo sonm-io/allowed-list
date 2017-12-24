@@ -9,17 +9,17 @@
       "sha256:b5f21641a9d7bbb59dc94fb6a663c43fbf3f56270ce7c7d51801ac74d2e70046"
     ]
   },
-  "sonm/monero-cpu-miner": {
+  "docker.io/sonm/monero-cpu-miner": {
     "allowed_hashes": [
       "sha256:7b42fda3e8f09b303a97ff75aba1c7a5b1c78b4ee22a1828928dcc70bc39e95c"
     ]
   },
-  "sonm/monero-gpu": {
+  "docker.io/sonm/monero-gpu": {
     "allowed_hashes": [
       "sha256:eb6703673e4f4523fa1db843de0d819d851d54225628fd38922a50a34219a47c"
     ]
   },
-  "sonm/eth-claymore": {
+  "docker.io/sonm/eth-claymore": {
     "allowed_hashes": [
       "sha256:b5f9a9e47fa319607ed339789ef6692d4937ae5910b86e0ab929d035849e491e"
     ]
