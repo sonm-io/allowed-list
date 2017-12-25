@@ -1,33 +1,31 @@
 # whitelist repo for SONM project
 
-## library/hello-world:latest
+## Docker hello-world
 
-Docker hello-world image
+library/hello-world:latest
 
-## library/nginx:latest
+## Nginx webserver
 
-Nginx webserver with hello page
+[library/nginx:latest](https://hub.docker.com/_/nginx/)
 
-## sonm/monero-cpu-miner:latest
-
-Monero CPU miner
-
-enviroment variables:
-
-*username* - email of account on minergate.com
-
-## sonm/monero-gpu:latest
-
-Monero GPU miner
+## Monero CPU miner
+[sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/monero-cpu/)
 
 enviroment variables:
 
 *username* - email of account on minergate.com
 
+## Monero GPU miner
+[sonm/monero-gpu:latest](https://hub.docker.com/r/sonm/monero-gpu/)
 
-## sonm/eth-claymore:latest
+enviroment variables:
 
-Claymore Ethereum dual miner
+*username* - email of account on minergate.com
+
+
+## Claymore Ethereum dual miner
+
+[sonm/eth-claymore:latest](https://hub.docker.com/r/sonm/eth-claymore/)
 
 enviroment variables:
 
