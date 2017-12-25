@@ -1,6 +1,6 @@
 # whitelist repo for SONM project
 
-## library/hellow-world:latest
+## library/hello-world:latest
 
 Docker hello-world image
 
