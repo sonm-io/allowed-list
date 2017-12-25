@@ -1,7 +1,8 @@
 # whitelist repo for SONM project
 
-This repo contains list of docker images allowed to executed by anonymous customer on SONM
-Examples for task.yaml are provided) 
+This repo contains list of docker images allowed to executed by anonymous customer on SONM.
+
+Examples for task.yaml are provided (see below)
 
 ## Docker hello-world
 
