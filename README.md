@@ -14,6 +14,7 @@ library/hello-world:latest
 
 ## Monero CPU miner
 [sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/monero-cpu-miner/)
+
 [task.yaml](https://github.com/sonm-io/allowed-list/blob/master/tasks/monero-cpu.task.yaml)
 
 enviroment variables:
