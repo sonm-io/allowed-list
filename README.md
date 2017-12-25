@@ -1,5 +1,8 @@
 # whitelist repo for SONM project
 
+This repo contains list of docker images allowed to executed by anonymous customer on SONM
+Examples for task.yaml are provided) 
+
 ## Docker hello-world
 
 library/hello-world:latest
@@ -10,6 +13,7 @@ library/hello-world:latest
 
 ## Monero CPU miner
 [sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/monero-cpu-miner/)
+[task.yaml](https://github.com/sonm-io/allowed-list/blob/master/tasks/monero-cpu.task.yaml)
 
 enviroment variables:
 
