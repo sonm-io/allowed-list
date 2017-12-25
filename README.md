@@ -6,14 +6,15 @@ Examples for task.yaml are provided (see below)
 
 ## Docker hello-world
 
-library/hello-world:latest
+Docker image: library/hello-world:latest
 
 ## Nginx webserver
 
-[library/nginx:latest](https://hub.docker.com/_/nginx/)
+Docker image: [library/nginx:latest](https://hub.docker.com/_/nginx/)
 
 ## Monero CPU miner
-[sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/monero-cpu-miner/)
+
+Docker image: [sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/monero-cpu-miner/)
 
 [task.yaml](https://github.com/sonm-io/allowed-list/blob/master/tasks/monero-cpu.task.yaml)
 
@@ -22,7 +23,8 @@ enviroment variables:
 *username* - email of account on minergate.com
 
 ## Monero GPU miner
-[sonm/monero-gpu:latest](https://hub.docker.com/r/sonm/monero-gpu/)
+
+Docker image: [sonm/monero-gpu:latest](https://hub.docker.com/r/sonm/monero-gpu/)
 
 enviroment variables:
 
@@ -31,7 +33,7 @@ enviroment variables:
 
 ## Claymore Ethereum dual miner
 
-[sonm/eth-claymore:latest](https://hub.docker.com/r/sonm/eth-claymore/)
+Docker image: [sonm/eth-claymore:latest](https://hub.docker.com/r/sonm/eth-claymore/)
 
 enviroment variables:
 
