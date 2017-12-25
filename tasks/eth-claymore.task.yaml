@@ -1,0 +1,18 @@
+task:
+  # Preferred miners.
+  miners: []
+  # docker image settings, required section
+  container:
+    # image name to start on miner, required param
+    name: sonm/eth-claymore:latest
+    # env variables that will be passed to container on start
+    env:
+      username: <email>
+  # container resources definition, required section
+  resources:
+      # number of CPU cores required by task, required param
+      CPU: 1
+      # amount of memory required by task, required param
+      # You may use Kb, Mb and Gb suffixes
+      RAM: 1024kb
+      GPU: true
