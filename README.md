@@ -9,7 +9,7 @@ library/hello-world:latest
 [library/nginx:latest](https://hub.docker.com/_/nginx/)
 
 ## Monero CPU miner
-[sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/monero-cpu/)
+[sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/monero-cpu-miner/)
 
 enviroment variables:
 
