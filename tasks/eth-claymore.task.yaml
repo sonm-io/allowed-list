@@ -7,7 +7,10 @@ task:
     name: sonm/eth-claymore:latest
     # env variables that will be passed to container on start
     env:
-      username: <email>
+      POOL: <pool>
+      ETH_ADDR: <addr>
+      WORKER: <worker>
+      EMAIL: <email>
   # container resources definition, required section
   resources:
       # number of CPU cores required by task, required param
