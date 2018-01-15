@@ -44,3 +44,12 @@ enviroment variables:
 *WORKER* - name of current worker (`any string`)
 
 *EMAIL* - your email
+
+## Redshift 3D renderer (demo)
+
+*URL* - points to the archive, containing .rs file, textures and other supplementary files, needed to render. Optional, if omitted, official benchmark scene Vultures.rs is used.
+
+*FILE* - .rs file in archive to render. If omitted, the first .rs file in archive is used
+
+*BENCHMARK* - perform benchmark run instead of rendering
+
