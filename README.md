@@ -47,6 +47,10 @@ enviroment variables:
 
 ## Redshift 3D renderer (demo)
 
+Docker image: [sonm/redshift3d:latest](https://hub.docker.com/r/sonm/redshift3d/)
+
+enviroment variables:
+
 *URL* - points to the archive, containing .rs file, textures and other supplementary files, needed to render. Optional, if omitted, official benchmark scene Vultures.rs is used.
 
 *FILE* - .rs file in archive to render. If omitted, the first .rs file in archive is used
