@@ -29,9 +29,9 @@ nvidia-smi
 
 if [ -z ${BENCHMARK+x} ]; then
   echo ===== Rendering $FILE =====
-  /usr/redshift/bin/redshiftCmdLine $FILE
+  /usr/redshift/bin/redshiftCmdLine $FILE $PARAMS
   exrtopng redshiftCmdLineOutput.exr result.png
 else
   echo ===== Benchmarking $FILE =====
-  /usr/redshift/bin/redshiftBenchmark $FILE
+  /usr/redshift/bin/redshiftBenchmark $FILE $PARAMS
 fi
