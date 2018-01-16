@@ -55,5 +55,7 @@ enviroment variables:
 
 *FILE* - .rs file in archive to render. If omitted, the first .rs file in archive is used
 
-*BENCHMARK* - perform benchmark run instead of rendering
+*PARAMS* - redshift specific params. May be ommited.
+
+*BENCHMARK* - if not empty, perform benchmark run instead of rendering
 
