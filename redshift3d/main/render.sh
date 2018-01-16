@@ -25,6 +25,9 @@ if [ -z ${FILE+x} ]; then
 else
   FILE=/render/$FILE
 fi
+
+nvidia-smi
+
 if [ -z ${BENCHMARK_MODE+x} ]; then
   echo ===== Benchmarking $FILE =====
   /usr/redshift/bin/redshiftBenchmark $FILE
