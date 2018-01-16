@@ -26,7 +26,7 @@
   },
   "docker.io/sonm/redshift3d": {
     "allowed_hashes": [
-      "sha256:67956d3ca178224b5333d7cc05a5a02bfed4e9f82af5a503195c7984e228e5e3"
+      "sha256:eb4a215a03d59b06debc262a4431ecbc13b69db59ae95d4ad019a7a1c292a985"
     ]
   } 
 }

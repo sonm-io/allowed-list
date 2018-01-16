@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [ -z ${URL+x} ]; then
   URL=https://s3.amazonaws.com/s3.redshift3d.com/public/benchmark/RedshiftBenchmarkScenes.tar.gz
 fi
@@ -28,11 +27,11 @@ fi
 
 nvidia-smi
 
-if [ -z ${BENCHMARK_MODE+x} ]; then
-  echo ===== Benchmarking $FILE =====
-  /usr/redshift/bin/redshiftBenchmark $FILE
-else
+if [ -z ${BENCHMARK+x} ]; then
   echo ===== Rendering $FILE =====
   /usr/redshift/bin/redshiftCmdLine $FILE
   exrtopng redshiftCmdLineOutput.exr result.png
+else
+  echo ===== Benchmarking $FILE =====
+  /usr/redshift/bin/redshiftBenchmark $FILE
 fi
