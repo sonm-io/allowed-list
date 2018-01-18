@@ -5,4 +5,4 @@ It also performs git clone a repositore, specified in REPO environment
 
 You need nvidia-docker2 installed to run it
 
-docker --runtime=nvidia -d -e REPO=<git repo with Notebooks> sonm/tensorflow
+docker --runtime=nvidia -d -e REPO=git_repo_with_Notebooks sonm/tensorflow
