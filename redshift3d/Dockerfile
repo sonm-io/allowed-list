@@ -34,4 +34,8 @@ RUN echo ===== Downloading RedShift from  ${REDSHIFT_URL} && \
   echo accept | ./${REDSHIFT_DISTR} && \
   rm ${REDSHIFT_DISTR}
 
-WORKDIR /usr/redshift/bin
+WORKDIR /root
+COPY render.sh /root/
+#CMD "bash"
+ENTRYPOINT ["./render.sh"]
+

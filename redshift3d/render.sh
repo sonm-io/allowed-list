@@ -1,4 +1,7 @@
 #!/bin/bash
+
+nvidia-smi
+
 if [ -z ${URL+x} ]; then
   URL=https://s3.amazonaws.com/s3.redshift3d.com/public/benchmark/RedshiftBenchmarkScenes.tar.gz
 fi
@@ -24,8 +27,6 @@ if [ -z ${FILE+x} ]; then
 else
   FILE=/render/$FILE
 fi
-
-nvidia-smi
 
 if [ -z ${BENCHMARK+x} ]; then
   echo ===== Rendering $FILE =====
