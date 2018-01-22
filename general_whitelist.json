@@ -29,4 +29,9 @@
       "sha256:b3988b032482f65958cb1913595e49b38c76e94a9b41aab3f49c8a68901bb5f5"
     ]
   } 
+  "docker.io/sonm/zcash-cuda-ewfb/": {
+    "allowed_hashes": [
+      "sha256:88e44504bdcd628f8bdf0bac68ee418a3d0c9ebcdcff3f249fbec88f291ce0f2"
+    ]
+  } 
 }
