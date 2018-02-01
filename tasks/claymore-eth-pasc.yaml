@@ -1,0 +1,25 @@
+task:
+  # Preferred miners.
+  miners: []
+  # docker image settings, required section
+  container:
+    # image name to start on miner, required param
+    name: sonm/clm-eth-pasc-opencl:latest
+    # env variables that will be passed to container on start
+    env:
+      ETH_POOL: <pool>
+      ETH_ADDR: <addr>
+      ETH_WORKER: <worker>
+      ETH_EMAIL: <email>
+      PASC_POOL: <pool>
+      PASC_ADDR: <addr>
+      PASC_WORKER: <worker>
+      PASC_EMAIL: <email>
+  # container resources definition, required section
+  resources:
+      # number of CPU cores required by task, required param
+      CPU: 1
+      # amount of memory required by task, required param
+      # You may use Kb, Mb and Gb suffixes
+      RAM: 1024kb
+      GPU: true
