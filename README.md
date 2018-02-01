@@ -41,7 +41,7 @@ enviroment variables:
 *EMAIL* - email of account
 
 
-## Claymore Ethereum dual miner
+## Claymore Ethereum dual miner (Ethereum-only)
 
 Docker image: [sonm/eth-claymore:latest](https://hub.docker.com/r/sonm/eth-claymore/)
 
@@ -54,6 +54,29 @@ enviroment variables:
 *WORKER* - name of current worker (`any string`)
 
 *EMAIL* - your email
+
+## Claymore Ethereum dual miner (Eth+pasc)
+
+Docker image: [sonm/clm-eth-pasc-opencl:latest](https://hub.docker.com/r/sonm/clm-eth-pasc-opencl/)
+
+enviroment variables:
+
+*ETH_POOL* - ethereum mining pool (e.g. `eth-eu1.nanopool.org:9999`)
+
+*ETH_ADDR* - your ethereum address
+
+*ETH_WORKER* - name of current ethereum worker (`any string`)
+
+*ETH_EMAIL* - your email for ethereum miner
+
+*PASC_POOL* - pascal mining pool (e.g. `eth-eu1.nanopool.org:9999`)
+
+*PASC_ADDR* - your pascal address address
+
+*PASC_WORKER* - name of current pascal worker (`any string`)
+
+*PASC_EMAIL* - your email for pascal worker
+
 
 ## Redshift 3D renderer (demo)
 
