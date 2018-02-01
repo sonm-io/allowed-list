@@ -20,7 +20,9 @@ Docker image: [sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/moner
 
 enviroment variables:
 
-*username* - email of account on minergate.com
+*XMR_POOL* - stratum XMR pool
+
+*XMR_ADDR* - your XMR address
 
 ## Monero GPU miner
 
