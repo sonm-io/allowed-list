@@ -30,6 +30,16 @@ enviroment variables:
 
 *username* - email of account on minergate.com
 
+## Zcash GPU(cuda-only) EWFB miner
+
+Docker image: [sonm/zcash-cuda-ewfb:latest](https://hub.docker.com/r/sonm/zcash-cuda-ewfb/)
+
+enviroment variables:
+
+*ZEC_ADDR* - your ZEC address
+*WORKER* - name of current worker (`any string`)
+*EMAIL* - email of account
+
 
 ## Claymore Ethereum dual miner
 
