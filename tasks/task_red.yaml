@@ -1,0 +1,20 @@
+task:
+  # Preferred miners.
+  miners: []
+  # docker image settings, required section
+  container:
+    # image name to start on miner, required param
+    name: sonm/redshift3d:latest
+    # env variables that will be passed to container on start
+    env:
+     # BENCHMARK: Y
+     # PARAMS: -gpu 0 -gpu 1 -gpu 2 -gpu 3 -gpu 4 -gpu 5 
+  # container resources definition, required section
+  resources:
+      # number of CPU cores required by task, required param
+      CPU: 2
+      # amount of memory required by task, required param
+      # You may use Kb, Mb and Gb suffixes
+      RAM: 4Gb
+      GPU: true
+    
