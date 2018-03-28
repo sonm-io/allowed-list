@@ -9,11 +9,6 @@
     "image": "sshaman1101/sonm-dumb-bench:latest",
     "type": 1
   },
-  "cpu-sysbench-ultra": {
-    "id": 99,
-    "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 1
-  },
   "net-download": {
     "id": 6,
     "image": "sshaman1101/sonm-dumb-bench:latest",
