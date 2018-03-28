@@ -1,0 +1,42 @@
+{
+  "cpu-sysbench-single": {
+    "id": 2,
+    "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 1
+  },
+  "cpu-sysbench-multi": {
+    "id": 1,
+    "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 1
+  },
+  "cpu-sysbench-ultra": {
+    "id": 99,
+    "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 1
+  },
+  "net-download": {
+    "id": 6,
+    "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 5
+  },
+  "net-upload": {
+    "id": 7,
+    "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 5
+  },
+  "gpu-eth-hashrate": {
+    "id": 10,
+    "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 2
+  },
+  "gpu-cash-hashrate": {
+    "id": 11,
+    "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 2
+  },
+  "gpu-redshift": {
+    "id": 12,
+    "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 2
+  }
+}
