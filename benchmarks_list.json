@@ -1,4 +1,16 @@
 {
+  "ram-size": {
+    "id": 4,
+    "type": 3
+  },
+  "storage-size": {
+    "id": 5,
+    "type": 4
+  },
+  "cpu-cores": {
+    "id": 3,
+    "type": 1
+  },
   "cpu-sysbench-single": {
     "id": 2,
     "image": "sshaman1101/sonm-dumb-bench:latest",
@@ -32,6 +44,14 @@
   "gpu-redshift": {
     "id": 12,
     "image": "sshaman1101/sonm-dumb-bench:latest",
+    "type": 2
+  },
+  "gpu-count": {
+    "id": 8,
+    "type": 2
+  },
+  "gpu-mem": {
+    "id": 9,
     "type": 2
   }
 }
