@@ -1,57 +1,57 @@
 {
-  "ram-size": {
-    "id": 4,
-    "type": 3
-  },
-  "storage-size": {
-    "id": 5,
-    "type": 4
-  },
-  "cpu-cores": {
-    "id": 3,
-    "type": 1
-  },
-  "cpu-sysbench-single": {
-    "id": 2,
+  "cpu-sysbench-multi": {
+    "id": 0,
     "image": "sshaman1101/sonm-dumb-bench:latest",
     "type": 1
   },
-  "cpu-sysbench-multi": {
+  "cpu-sysbench-single": {
     "id": 1,
     "image": "sshaman1101/sonm-dumb-bench:latest",
     "type": 1
   },
+  "cpu-cores": {
+    "id": 2,
+    "type": 1
+  },
+  "ram-size": {
+    "id": 3,
+    "type": 3
+  },
+  "storage-size": {
+    "id": 4,
+    "type": 4
+  },
   "net-download": {
-    "id": 6,
+    "id": 5,
     "image": "sshaman1101/sonm-dumb-bench:latest",
     "type": 5
   },
   "net-upload": {
-    "id": 7,
+    "id": 6,
     "image": "sshaman1101/sonm-dumb-bench:latest",
     "type": 5
   },
+  "gpu-count": {
+    "id": 7,
+    "type": 2
+  },
+  "gpu-mem": {
+    "id": 8,
+    "type": 2
+  },
   "gpu-eth-hashrate": {
-    "id": 10,
+    "id": 9,
     "image": "sshaman1101/sonm-dumb-bench:latest",
     "type": 2
   },
   "gpu-cash-hashrate": {
-    "id": 11,
+    "id": 10,
     "image": "sshaman1101/sonm-dumb-bench:latest",
     "type": 2
   },
   "gpu-redshift": {
-    "id": 12,
+    "id": 11,
     "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 2
-  },
-  "gpu-count": {
-    "id": 8,
-    "type": 2
-  },
-  "gpu-mem": {
-    "id": 9,
     "type": 2
   }
 }
