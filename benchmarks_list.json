@@ -2,7 +2,8 @@
   "cpu-sysbench-multi": {
     "id": 0,
     "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 1
+    "type": 1,
+    "splittingAlgorithm": 1
   },
   "cpu-sysbench-single": {
     "id": 1,
@@ -15,21 +16,25 @@
   },
   "ram-size": {
     "id": 3,
-    "type": 3
+    "type": 3,
+    "splittingAlgorithm": 1
   },
   "storage-size": {
     "id": 4,
-    "type": 4
+    "type": 4,
+    "splittingAlgorithm": 1
   },
   "net-download": {
     "id": 5,
     "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 5
+    "type": 5,
+    "splittingAlgorithm": 1
   },
   "net-upload": {
     "id": 6,
     "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 5
+    "type": 5,
+    "splittingAlgorithm": 1
   },
   "gpu-count": {
     "id": 7,
