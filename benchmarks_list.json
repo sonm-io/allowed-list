@@ -33,7 +33,7 @@
   "net-upload": {
     "id": 6,
     "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 5,
+    "type": 6,
     "splittingAlgorithm": 1
   },
   "gpu-count": {
