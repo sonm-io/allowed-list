@@ -38,25 +38,30 @@
   },
   "gpu-count": {
     "id": 7,
-    "type": 2
+    "type": 2,
+    "splittingAlgorithm": 1
   },
   "gpu-mem": {
     "id": 8,
-    "type": 2
+    "type": 2,
+    "splittingAlgorithm": 2
   },
   "gpu-eth-hashrate": {
     "id": 9,
     "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 2
+    "type": 2,
+    "splittingAlgorithm": 1
   },
   "gpu-cash-hashrate": {
     "id": 10,
     "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 2
+    "type": 2,
+    "splittingAlgorithm": 1
   },
   "gpu-redshift": {
     "id": 11,
     "image": "sshaman1101/sonm-dumb-bench:latest",
-    "type": 2
+    "type": 2,
+    "splittingAlgorithm": 1
   }
 }
