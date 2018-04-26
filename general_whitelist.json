@@ -38,5 +38,10 @@
     "allowed_hashes": [
       "sha256:646325cf42bc3864517ee03e7dba44e1f1b7e0798311dbc8298dbcdc93fba462"
     ]
-  } 
+    },
+  "docker.io/emanaev/networking/": {
+    "allowed_hashes": [
+      "sha256:f9c3030722ce9f945f64cca0f1a5982f1f5a76e955460c62f87ee392ff6c264e"
+    ]
+} 
 }
