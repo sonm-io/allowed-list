@@ -51,7 +51,7 @@ enviroment variables:
 
 *POOL* - ethereum mining pool (e.g. `eth-eu1.nanopool.org:9999`)
 
-*ETH_ADDR* - your ethereum address
+*WALLET* - your ethereum address
 
 *WORKER* - name of current worker (`any string`)
 
