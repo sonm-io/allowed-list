@@ -5,6 +5,6 @@ container:
   # Env variables that will be passed to container on start.
   env:
     POOL: <pool>
-    ETH_ADDR: <addr>
+    WALLET: <addr>
     WORKER: <worker>
     EMAIL: <email>
