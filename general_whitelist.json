@@ -29,17 +29,17 @@
       "sha256:b3988b032482f65958cb1913595e49b38c76e94a9b41aab3f49c8a68901bb5f5"
     ]
   },
-  "docker.io/sonm/zcash-cuda-ewfb/": {
+  "docker.io/sonm/zcash-cuda-ewfb": {
     "allowed_hashes": [
-      "sha256:88e44504bdcd628f8bdf0bac68ee418a3d0c9ebcdcff3f249fbec88f291ce0f2"
+      "sha256:aa7e8751f060dbebb323e3f7dc02af659bf24b26f476695ebb670de6a4c0fa7a"
     ]
   },
-  "docker.io/sonm/clm-eth-pasc-opencl/": {
+  "docker.io/sonm/clm-eth-pasc-opencl": {
     "allowed_hashes": [
       "sha256:646325cf42bc3864517ee03e7dba44e1f1b7e0798311dbc8298dbcdc93fba462"
     ]
     },
-  "docker.io/emanaev/networking/": {
+  "docker.io/emanaev/networking": {
     "allowed_hashes": [
       "sha256:f9c3030722ce9f945f64cca0f1a5982f1f5a76e955460c62f87ee392ff6c264e"
     ]
