@@ -42,6 +42,17 @@ enviroment variables:
 *WORKER* - name of current worker (`any string`)
 *EMAIL* - email of account
 
+## ZCash GPU (AMD)
+
+Docker image `sonm/zcash-amd`.
+
+Enviroment variables:
+```
+WALLET - wallet for mined funds, required parameter
+POOL   - mining pool address, default: "zec-eu1.nanopool.org:6666"
+WORKER - worker name, default: "sonm_worker"
+```
+
 
 ## Claymore Ethereum dual miner (Ethereum-only)
 

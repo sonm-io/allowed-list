@@ -34,6 +34,11 @@
       "sha256:aa7e8751f060dbebb323e3f7dc02af659bf24b26f476695ebb670de6a4c0fa7a"
     ]
   },
+  "docker.io/sonm/zcash-amd": {
+    "allowed_hashes": [
+      "sha256:aeba2b86876d9e0ccbe768e8863e7f2ccc0de96f4de49bfeecc8c338ea64c7f3"
+    ]
+  },
   "docker.io/sonm/clm-eth-pasc-opencl": {
     "allowed_hashes": [
       "sha256:646325cf42bc3864517ee03e7dba44e1f1b7e0798311dbc8298dbcdc93fba462"
