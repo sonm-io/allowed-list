@@ -26,6 +26,23 @@ enviroment variables:
 
 ## Monero GPU miner
 
+## Monero GPU miner (NVidia CUDA)
+
+Image: ``
+
+Building:
+```
+docker build -t sonm/monero-cuda:latest ./monero-cuda
+```
+
+Environemt variables:
+```
+WALLET - wallet for mined funds, required parameter 
+POOL   - mining pool address, default: "xmr-eu1.nanopool.org:14444"
+WORKER - worker name, default: "sonm_worker"
+```
+
+
 Docker image: [sonm/monero-gpu:latest](https://hub.docker.com/r/sonm/monero-gpu/)
 
 enviroment variables:
