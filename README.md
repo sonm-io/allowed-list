@@ -4,13 +4,16 @@ This repo contains list of docker images allowed to executed by anonymous custom
 
 Examples for task.yaml are provided (see below)
 
+
 ## Docker hello-world
 
-Docker image: library/hello-world:latest
+Docker image: [hello-world:latest](https://hub.docker.com/_/hello-world/)
+
 
 ## Nginx webserver
 
-Docker image: [library/nginx:latest](https://hub.docker.com/_/nginx/)
+Docker image: [nginx:latest](https://hub.docker.com/_/nginx/)
+
 
 ## Monero CPU miner
 
@@ -18,17 +21,16 @@ Docker image: [sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/moner
 
 [task.yaml](https://github.com/sonm-io/allowed-list/blob/master/tasks/monero-cpu.task.yaml)
 
-enviroment variables:
+Enviroment variables:
+```
+XMR_POOL - stratum XMR pool
+XMR_ADDR - your XMR address
+```
 
-*XMR_POOL* - stratum XMR pool
-
-*XMR_ADDR* - your XMR address
-
-## Monero GPU miner
 
 ## Monero GPU miner (NVidia CUDA)
 
-Image: ``
+Docker image: `sonm/monero-cuda:latest`
 
 Building:
 ```
@@ -43,16 +45,9 @@ WORKER - worker name, default: "sonm_worker"
 ```
 
 
-Docker image: [sonm/monero-gpu:latest](https://hub.docker.com/r/sonm/monero-gpu/)
+## Monero GPU miner (AMD)
 
-enviroment variables:
-
-*username* - email of account on minergate.com
-
-
-## Monero GPU Miner (AMD)
-
-Image `sonm/monero-amd`.
+Docker image `sonm/monero-amd:latest`.
 
 building:
 ```
@@ -67,17 +62,28 @@ WORKER - worker name, default: "sonm_worker"
 ```
 
 
-## Zcash GPU(cuda-only) EWFB miner
+## Zcash GPU miner (NVidia CUDA)
+
+Building:
+```
+docker build -t sonm/zcash-cuda-ewfb:latest ./zcash-cuda-ewfb
+```
 
 Docker image: [sonm/zcash-cuda-ewfb:latest](https://hub.docker.com/r/sonm/zcash-cuda-ewfb/)
 
-enviroment variables:
+Enviroment variables:
+```
+ZEC_ADDR - your ZEC address, required parameter
+WORKER   - worker name, default: "sonm_worker"
+EMAIL    - email of account, optional
+```
 
-*ZEC_ADDR* - your ZEC address
-*WORKER* - name of current worker (`any string`)
-*EMAIL* - email of account
+## ZCash GPU miner (AMD)
 
-## ZCash GPU (AMD)
+Building: 
+```
+docker build -t sonm/zcash-amd:latest ./zcash-amd
+```
 
 Docker image `sonm/zcash-amd`.
 
@@ -89,19 +95,18 @@ WORKER - worker name, default: "sonm_worker"
 ```
 
 
-## Claymore Ethereum dual miner (Ethereum-only)
+## Ethereum Claymore miner (Both AMD and NVidia)
 
 Docker image: [sonm/eth-claymore:latest](https://hub.docker.com/r/sonm/eth-claymore/)
 
-enviroment variables:
+Enviroment variables:
+```
+WALLET - your ethereum address for mined funds, required
+POOL   - ethereum mining pool, default: "eth-eu1.nanopool.org:9999"
+WORKER - worker name, default: "sonm_worker"
+EMAIL  - your email, optional
+```
 
-*POOL* - ethereum mining pool (e.g. `eth-eu1.nanopool.org:9999`)
-
-*WALLET* - your ethereum address
-
-*WORKER* - name of current worker (`any string`)
-
-*EMAIL* - your email
 
 ## Claymore Ethereum dual miner (Eth+pasc)
 
@@ -109,34 +114,29 @@ Docker image: [sonm/clm-eth-pasc-opencl:latest](https://hub.docker.com/r/sonm/cl
 
 enviroment variables:
 
-*ETH_POOL* - ethereum mining pool (e.g. `eth-eu1.nanopool.org:9999`)
+```
+ETH_POOL    - ethereum mining pool (e.g. `eth-eu1.nanopool.org:9999`)
+ETH_ADDR    - your ethereum address
+ETH_WORKER  - name of current ethereum worker (`any string`)
+ETH_EMAIL   - your email for ethereum miner
 
-*ETH_ADDR* - your ethereum address
-
-*ETH_WORKER* - name of current ethereum worker (`any string`)
-
-*ETH_EMAIL* - your email for ethereum miner
-
-*PASC_POOL* - pascal mining pool (e.g. `eth-eu1.nanopool.org:9999`)
-
-*PASC_ADDR* - your pascal address address
-
-*PASC_WORKER* - name of current pascal worker (`any string`)
-
-*PASC_EMAIL* - your email for pascal worker
+PASC_POOL   - pascal mining pool (e.g. `eth-eu1.nanopool.org:9999`)
+PASC_ADDR   - your pascal address address
+PASC_WORKER - name of current pascal worker (`any string`)
+PASC_EMAIL  - your email for pascal worker
+```
 
 
-## Redshift 3D renderer (demo)
+## Redshift 3D renderer (NVidia CUDA only)
 
 Docker image: [sonm/redshift3d:latest](https://hub.docker.com/r/sonm/redshift3d/)
 
-enviroment variables:
+Enviroment variables:
 
-*URL* - points to the archive, containing .rs file, textures and other supplementary files, needed to render. Optional, if omitted, official benchmark scene Vultures.rs is used.
-
-*FILE* - .rs file in archive to render. If omitted, the first .rs file in archive is used
-
-*PARAMS* - redshift specific params. May be ommited.
-
-*BENCHMARK* - if not empty, perform benchmark run instead of rendering
-
+```
+URL       - points to the archive, containing .rs file, textures and other supplementary files, 
+            needed to render. Optional, if omitted, official benchmark scene Vultures.rs is used.
+FILE      - .rs file in archive to render. If omitted, the first .rs file in archive is used
+PARAMS    - redshift specific params, optional.
+BENCHMARK - if not empty, perform benchmark run instead of rendering.
+```

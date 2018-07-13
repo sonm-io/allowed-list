@@ -14,11 +14,6 @@
       "sha256:55e4bbd6c02f5e01dedfd97d38eac997d23776757b3a0e02b1907fb37e60b78d"
     ]
   },
-  "docker.io/sonm/monero-gpu": {
-    "allowed_hashes": [
-      "sha256:eb6703673e4f4523fa1db843de0d819d851d54225628fd38922a50a34219a47c"
-    ]
-  },
   "docker.io/sonm/monero-amd": {
     "allowed_hashes": [
       "sha256:def5d17006235b1746d05a3c853612f41e0e9536e7a7eebdb87b3ca0363d3005"

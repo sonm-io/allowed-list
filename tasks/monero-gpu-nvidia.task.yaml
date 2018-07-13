@@ -1,7 +1,10 @@
 # docker image settings, required section
 container:
   # Image name to start on worker, required param.
-  image: sonm/monero-gpu:latest
+  image: sonm/monero-cuda:latest
   # Env variables that will be passed to container on start.
   env:
-    username: <email>
+    WALLET: <wallet>
+    # optional params
+    # WORKER: sonm_worker
+    # POOL: xmr-eu1.nanopool.org:14433
