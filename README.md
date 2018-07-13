@@ -32,6 +32,24 @@ enviroment variables:
 
 *username* - email of account on minergate.com
 
+
+## Monero GPU Miner (AMD)
+
+Image `sonm/monero-amd`.
+
+building:
+```
+docker build -t sonm/monero-amd:latest ./monero-amd
+```
+
+Environemt variables:
+```
+WALLET - wallet for mined funds, required parameter 
+POOL   - mining pool address (SSL only), default: "xmr-eu1.nanopool.org:14433"
+WORKER - worker name, default: "sonm_worker"
+```
+
+
 ## Zcash GPU(cuda-only) EWFB miner
 
 Docker image: [sonm/zcash-cuda-ewfb:latest](https://hub.docker.com/r/sonm/zcash-cuda-ewfb/)

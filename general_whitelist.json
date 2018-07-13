@@ -1,6 +1,6 @@
 {
-  "hello-world" : {
-    "allowed_hashes" :[
+  "hello-world": {
+    "allowed_hashes": [
       "sha256:be0cd392e45be79ffeffa6b05338b98ebb16c87b255f48e297ec7f98e123905c"
     ]
   },
@@ -17,6 +17,11 @@
   "docker.io/sonm/monero-gpu": {
     "allowed_hashes": [
       "sha256:eb6703673e4f4523fa1db843de0d819d851d54225628fd38922a50a34219a47c"
+    ]
+  },
+  "docker.io/sonm/monero-amd": {
+    "allowed_hashes": [
+      "sha256:def5d17006235b1746d05a3c853612f41e0e9536e7a7eebdb87b3ca0363d3005"
     ]
   },
   "docker.io/sonm/eth-claymore": {
@@ -43,10 +48,10 @@
     "allowed_hashes": [
       "sha256:646325cf42bc3864517ee03e7dba44e1f1b7e0798311dbc8298dbcdc93fba462"
     ]
-    },
+  },
   "docker.io/emanaev/networking": {
     "allowed_hashes": [
       "sha256:f9c3030722ce9f945f64cca0f1a5982f1f5a76e955460c62f87ee392ff6c264e"
     ]
-}
+  }
 }
