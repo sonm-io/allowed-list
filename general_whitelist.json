@@ -24,6 +24,11 @@
       "sha256:def5d17006235b1746d05a3c853612f41e0e9536e7a7eebdb87b3ca0363d3005"
     ]
   },
+  "docker.io/sonm/monero-cuda": {
+    "allowed_hashes": [
+      "sha256:af895d6cf8dee396f994c58993e9f8e5337f46528989fb315adfbf3e42da3277"
+    ]
+  },
   "docker.io/sonm/eth-claymore": {
     "allowed_hashes": [
       "sha256:28b4b647e6f1acac78282f0cdeac8aaa6f85c3c15e4c016298fb6d618fb53c29"
