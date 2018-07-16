@@ -17,14 +17,20 @@ Docker image: [nginx:latest](https://hub.docker.com/_/nginx/)
 
 ## Monero CPU miner
 
-Docker image: [sonm/monero-cpu-miner:latest](https://hub.docker.com/r/sonm/monero-cpu-miner/)
+Docker image: [sonm/monero-cpu:latest]
 
 [task.yaml](https://github.com/sonm-io/allowed-list/blob/master/tasks/monero-cpu.task.yaml)
 
+Building:
+```
+docker build -t sonm/monero-cpu:latest ./monero-cpu
+```
+
 Enviroment variables:
 ```
-XMR_POOL - stratum XMR pool
-XMR_ADDR - your XMR address
+XMR_ADDR - XMR wallet for mined funds, required parameter 
+XMR_POOL - mining pool address, default: "xmr-eu1.nanopool.org:14444"
+WORKER   - worker name, default: "sonm_worker"
 ```
 
 

@@ -1,8 +1,10 @@
 # docker image settings, required section
 container:
   # Image name to start on worker, required param.
-  image: sonm/monero-cpu-miner:latest
+  image: sonm/monero-cpu:latest
   # Env variables that will be passed to container on start.
   env:
-    XMR_POOL: <>
-    XMR_ADDR: <>
+    XMR_ADDR: # required param
+    # optional params
+    # XMR_POOL: xmr-eu1.nanopool.org:14444
+    # WORKER: my_sonm_worker
