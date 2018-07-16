@@ -26,7 +26,8 @@
   },
   "docker.io/sonm/eth-claymore": {
     "allowed_hashes": [
-      "sha256:28b4b647e6f1acac78282f0cdeac8aaa6f85c3c15e4c016298fb6d618fb53c29"
+      "sha256:28b4b647e6f1acac78282f0cdeac8aaa6f85c3c15e4c016298fb6d618fb53c29",
+      "sha256:9355759466009bbc6869229d4598d0dd23135243c287eb9e10817352b98e6496"
     ]
   },
   "docker.io/sonm/redshift3d": {
@@ -42,11 +43,6 @@
   "docker.io/sonm/zcash-amd": {
     "allowed_hashes": [
       "sha256:aeba2b86876d9e0ccbe768e8863e7f2ccc0de96f4de49bfeecc8c338ea64c7f3"
-    ]
-  },
-  "docker.io/sonm/clm-eth-pasc-opencl": {
-    "allowed_hashes": [
-      "sha256:646325cf42bc3864517ee03e7dba44e1f1b7e0798311dbc8298dbcdc93fba462"
     ]
   },
   "docker.io/emanaev/networking": {
