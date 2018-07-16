@@ -19,9 +19,21 @@ SONM_POOL="${POOL:-eth-eu1.nanopool.org:9999}"
 SONM_WORKER="${WORKER:-sonm_worker}"
 SONM_EMAIL="${EMAIL:-johndoe@foobar.baz}"
 
+SONM_PASC_POOL="${PASC_POOL:-stratum+tcp://pasc-eu1.nanopool.org:15555}"
+SONM_PASC_PAYMENTID="${PASC_PAYMENTID:-0}"
+
 if [[ -z "$WALLET" ]]; then
     echo "Please set env-variable 'WALLET' for mined funds."
     exit 1
 fi
 
-/home/claymore/ethdcrminer64 -epool ${SONM_POOL} -ewal ${WALLET}/${SONM_WORKER}/${SONM_EMAIL} -epsw x -mode 1 -ftime 10
+PASC_PARAMS="-mode 1"
+if [[ ! -z "$PASC_ADDRESS" ]]; then
+    echo "Enabling PascalCoin mining"
+    PASC_PARAMS="-dpool ${SONM_PASC_POOL} -dwal ${PASC_ADDRESS}.${SONM_PASC_PAYMENTID}.${SONM_WORKER}/${SONM_EMAIL}"
+fi
+
+ETH_PARAMS="-epool ${SONM_POOL} -ewal ${WALLET}/${SONM_WORKER}/${SONM_EMAIL} -epsw x"
+
+
+/home/claymore/ethdcrminer64 -ftime 10 ${ETH_PARAMS} ${PASC_PARAMS}

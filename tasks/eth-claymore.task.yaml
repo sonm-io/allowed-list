@@ -4,7 +4,13 @@ container:
   image: sonm/eth-claymore:latest
   # Env variables that will be passed to container on start.
   env:
-    POOL: <pool>
     WALLET: <addr>
-    WORKER: <worker>
-    EMAIL: <email>
+    # Ethereum mining params
+    # POOL: <pool>
+    # WORKER: <worker>
+    # EMAIL: <email>
+
+    # Pascal mining params.
+    # Set address to enable dual mining with PascalCoin
+    # PASC_ADDRESS: <addr>
+    # PASC_PAYMENTID: 0
