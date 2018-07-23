@@ -27,7 +27,7 @@
   "docker.io/sonm/eth-claymore": {
     "allowed_hashes": [
       "sha256:28b4b647e6f1acac78282f0cdeac8aaa6f85c3c15e4c016298fb6d618fb53c29",
-      "sha256:9355759466009bbc6869229d4598d0dd23135243c287eb9e10817352b98e6496"
+      "sha256:8c636b59b7cb7ebd96f139c880e85a84ca9ff689cbd2fffa6187ffcaf4cd470f"
     ]
   },
   "docker.io/sonm/redshift3d": {
