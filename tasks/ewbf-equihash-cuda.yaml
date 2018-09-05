@@ -1,7 +1,7 @@
 # docker image settings, required section
 container:
   # Image name to start on worker, required param.
-  image: "sonm/zcash-cuda-ewfb@sha256:39ce0ce5005131ee817890ec4a5721fcff7ed22583d6586953a0d5b1fc642f5d"
+  image: "sonm/equihash-cuda-ewbf@sha256:39ce0ce5005131ee817890ec4a5721fcff7ed22583d6586953a0d5b1fc642f5d"
   # Env variables that will be passed to container on start.
   env:
     WALLET: <addr>
