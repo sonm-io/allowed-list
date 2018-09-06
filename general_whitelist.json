@@ -11,7 +11,7 @@
   },
   "docker.io/sonm/monero-cpu": {
     "allowed_hashes": [
-      "sha256:b69dbc581b40b54d5560ce6b9e9ad1b453b2e4e4a15c9194090ccfba5a5732d3"
+      "sha256:cbf601b22c90993c44a6415032471538f4e55fa53e8a2ed8e45bcf870350da52"
     ]
   },
   "docker.io/sonm/monero-amd": {

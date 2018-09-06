@@ -12,4 +12,6 @@ fi
 /miner/xmrig -a cryptonight \
     --url ${SONM_POOL} \
     --user ${XMR_ADDR} \
-    --rig-id=${WORKER}
+    --rig-id=${WORKER} \
+    --print-time=10 \
+    --no-color
