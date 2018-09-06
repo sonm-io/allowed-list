@@ -50,5 +50,10 @@
     "allowed_hashes": [
       "sha256:f9c3030722ce9f945f64cca0f1a5982f1f5a76e955460c62f87ee392ff6c264e"
     ]
+  },
+  "docker.io/sonm/equihash-cuda-ewbf": {
+    "allowed_hashes": [
+      "sha256:39ce0ce5005131ee817890ec4a5721fcff7ed22583d6586953a0d5b1fc642f5d"
+    ]
   }
 }

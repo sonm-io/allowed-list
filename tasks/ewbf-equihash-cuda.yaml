@@ -1,0 +1,15 @@
+# docker image settings, required section
+container:
+  # Image name to start on worker, required param.
+  image: "sonm/equihash-cuda-ewbf@sha256:39ce0ce5005131ee817890ec4a5721fcff7ed22583d6586953a0d5b1fc642f5d"
+  # Env variables that will be passed to container on start.
+  env:
+    WALLET: <addr>
+    # mining pool address (without port!), default value is "eu.minexpool.nl"
+    # SERVER: "eu.minexpool.nl"
+    # mining pool port, default value is "3333"
+    # PORT: "3333"
+    # mining algorithm, optional.
+    # supported values "192_7", "144_5", "96_5", "210_9", "zhash" and "aion".
+    # defualt is "96_5".
+    # ALGO: <mining algo, optional>
