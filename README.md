@@ -31,6 +31,7 @@ Enviroment variables:
 XMR_ADDR - XMR wallet for mined funds, required parameter 
 XMR_POOL - mining pool address, default: "xmr-eu1.nanopool.org:14444"
 WORKER   - worker name, default: "sonm_worker"
+USE_TLS  - set to `true` if mining pool accepts connection via TLS
 ```
 
 
