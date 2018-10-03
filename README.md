@@ -107,10 +107,12 @@ Docker image: [sonm/eth-claymore:latest](https://hub.docker.com/r/sonm/eth-claym
 
 Enviroment variables:
 ```
-WALLET - your ethereum address for mined funds, required
-POOL   - ethereum mining pool, default: "eth-eu1.nanopool.org:9999"
-WORKER - worker name, default: "sonm_worker"
-EMAIL  - your email, optional
+WALLET       - your ethereum address for mined funds, required
+POOL         - ethereum mining pool, default: "eth-eu1.nanopool.org:9999"
+WORKER       - worker name, default: "sonm_worker"
+EMAIL        - your email, optional
+USE_ALLPOOLS - set to `true` if you need `-allpools=1` parameter enabled
+USE_ALLCOINS - set to `true` if you need `-allcoins=1` parameter enabled
 ```
 
 

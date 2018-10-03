@@ -5,6 +5,8 @@ container:
   # Env variables that will be passed to container on start.
   env:
     WALLET: <addr>
+    USE_ALLPOOLS: true
+    USE_ALLCOINS: true
     # Ethereum mining params
     # POOL: <pool>
     # WORKER: <worker>
