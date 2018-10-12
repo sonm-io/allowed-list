@@ -17,7 +17,7 @@ fi
 # USER-defined params
 SONM_POOL="${POOL:-eth-eu1.nanopool.org:9999}"
 SONM_PASC_POOL="${PASC_POOL:-stratum+tcp://pasc-eu1.nanopool.org:15555}"
-SONM_ALLPOLLS=""
+SONM_ALLPOOLS=""
 SONM_ALLCOINS=""
 
 if [[ -z "$WALLET" ]]; then
@@ -33,7 +33,7 @@ fi
 
 if [[ ! -z "$USE_ALLPOOLS" ]]; then
     echo "Enabling -allpools=1 for claymore"
-    SONM_ALLPOLLS="-allpools 1"
+    SONM_ALLPOOLS="-allpools 1"
 fi
 
 if [[ ! -z "$USE_ALLCOINS" ]]; then
@@ -42,7 +42,7 @@ if [[ ! -z "$USE_ALLCOINS" ]]; then
 fi
 
 
-COMMON_PARAMS="-ftime 10 ${SONM_ALLPOLLS} ${SONM_ALLCOINS}"
+COMMON_PARAMS="-ftime 10 ${SONM_ALLPOOLS} ${SONM_ALLCOINS}"
 ETH_PARAMS="-epool ${SONM_POOL} -ewal ${WALLET} -epsw x"
 
 /home/claymore/ethdcrminer64 ${COMMON_PARAMS} ${ETH_PARAMS} ${PASC_PARAMS}
