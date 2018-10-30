@@ -9,7 +9,6 @@ RUN apt-get update > /dev/null \
     && find /root/src -name 'CryptoDredge' -exec cp {} / \; \
     && rm -rf /root/src/
 
-
 COPY run.sh /
 
 ENTRYPOINT ["/run.sh"]
