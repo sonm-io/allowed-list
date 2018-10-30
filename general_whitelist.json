@@ -60,7 +60,7 @@
   }, 
     "docker.io/sonm/cryptodredge": {
     "allowed_hashes": [
-      "sha256:5fd05ceb3080d683c8abf3c689200381e1a0fc37978c6691be6449cd32d04530"
+      "sha256:3a515e34dd9c895550ea6e58489ad3fe29ffc48575bed30066a7032bd41d64bf"
     ]
   }
 }
