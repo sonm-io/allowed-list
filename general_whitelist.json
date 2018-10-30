@@ -65,7 +65,7 @@
   }, 
       "docker.io/sonm/t-rex": {
     "allowed_hashes": [
-      "sha256:aa404b5bf15434eb12fa039a69aa34a14f1ccbac946ad83410d03cb437f8ad9b"
+      "sha256:150815573ff739c684261275cb0f3b0c377c288a42ab2a63446c47e3a7c65116"
     ]
   }
 }
