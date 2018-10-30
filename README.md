@@ -165,3 +165,17 @@ Environment variables:
 PARAMS      - Set params for miner (algo, pool, wallet, etc.), for example "-a phi2 -o stratum+tcp://bpool.io:8332 -u LMFBZigCMiVqksVXzvXuUcuirtAY7QMtX5"
 ```
 
+
+## T-rex miner (NVidia CUDA only)
+
+T-rex 0.7.2 miner (devfee 1%) for NVidia GPUs. Needs CUDA 9.1.
+
+Supported algos: balloon, bcd, bitcore, c11, hmq1725, hsr, lyra2z, phi, polytimos, renesis, sha256t, skunk, sonoa, timetravel, tribus, x16r, x16s, x17.
+
+Docker image: [sonm/t-rex](https://hub.docker.com/r/sonm/t-rex/)
+
+Environment variables: 
+
+```
+PARAMS      - Set params for miner (algo, pool, wallet, etc.), for example "-a x16r -o stratum+tcp://us.ravenminer.com:6789 -u RTCuL6Lod8wL9FgcCj7qKDQibiMBXh1a7F -p worker1"
+```
