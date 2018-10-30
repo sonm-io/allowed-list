@@ -1,0 +1,6 @@
+container:
+  commit_on_stop: false
+  image: sonm/cryptodredge:v0.9.4
+  env:
+    # Set params for miner (algo, pool, wallet, etc.), for example PARAMS: "-a phi2 -o stratum+tcp://bpool.io:8332 -u LMFBZigCMiVqksVXzvXuUcuirtAY7QMtX5"
+    PARAMS: ""
