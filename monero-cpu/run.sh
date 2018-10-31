@@ -19,4 +19,5 @@ fi
     --user ${XMR_ADDR} \
     --rig-id=${WORKER} \
     --print-time=10 \
+    --donate-level=1 \
     --no-color

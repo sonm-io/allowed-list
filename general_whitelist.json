@@ -11,6 +11,7 @@
   },
   "docker.io/sonm/monero-cpu": {
     "allowed_hashes": [
+      "sha256:114feb23dbe57ea715b4d114eb1684d3fface57bb6180746fa37d55e55eb4763",
       "sha256:a4b0b1f6de5e273b89fd33fd9afd9be52e97d45e4bef69df580bbfeedd152641",
       "sha256:cbf601b22c90993c44a6415032471538f4e55fa53e8a2ed8e45bcf870350da52"
     ]
@@ -57,12 +58,12 @@
     "allowed_hashes": [
       "sha256:39ce0ce5005131ee817890ec4a5721fcff7ed22583d6586953a0d5b1fc642f5d"
     ]
-  }, 
+  },
     "docker.io/sonm/cryptodredge": {
     "allowed_hashes": [
       "sha256:3a515e34dd9c895550ea6e58489ad3fe29ffc48575bed30066a7032bd41d64bf"
     ]
-  }, 
+  },
     "docker.io/sonm/t-rex": {
     "allowed_hashes": [
       "sha256:150815573ff739c684261275cb0f3b0c377c288a42ab2a63446c47e3a7c65116"
