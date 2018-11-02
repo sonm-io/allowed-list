@@ -68,5 +68,10 @@
     "allowed_hashes": [
       "sha256:150815573ff739c684261275cb0f3b0c377c288a42ab2a63446c47e3a7c65116"
     ]
+  },
+  "docker.io/cs16ds/server": {
+    "allowed_hashes": [
+      "sha256:da081563e3d8c5ec15bb8b6f888052070726808f6bdbefb318ff55b062e3d808"
+    ]
   }
 }
