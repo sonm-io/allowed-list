@@ -179,3 +179,17 @@ Environment variables:
 ```
 PARAMS      - Set params for miner (algo, pool, wallet, etc.), for example "-a x16r -o stratum+tcp://us.ravenminer.com:6789 -u RTCuL6Lod8wL9FgcCj7qKDQibiMBXh1a7F -p worker1"
 ```
+
+## rhminer-cpu
+
+See for details: https://github.com/polyminer1/rhminer/blob/master/README.md
+
+Docker image: [sonm/rhminer-cpu](https://hub.docker.com/r/sonm/rhminer-cpu/)
+
+```
+Set params for miner (algo, pool, wallet, etc.), for example: 
+
+PARAMS: "-r 20 -v 2 -s stratum+tcp://pasc-eu1.nanopool.org:15556 -cpu -su 86646-64.995999b69aace759"
+
+Do NOT set '-cputhreads', it's calculated automatically as [total CPU threads - 1].
+```s

@@ -1,0 +1,10 @@
+# Docker image settings.
+# Required.
+
+container:
+  image: "sonm/rhminer-cpu:latest"
+  env:
+    # Set params for miner (algo, pool, wallet, etc.), for example PARAMS: "-r 20 -v 2 -s stratum+tcp://pasc-eu1.nanopool.org:15556 -cpu -su 86646-64.995999b69aace759"
+    # Do NOT set '-cputhreads', it's calculated automatically as [total CPU threads - 1].
+    PARAMS: ""
+  commit_on_stop: false
