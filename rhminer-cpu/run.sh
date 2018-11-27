@@ -3,7 +3,7 @@
 lscpu
 CORES=$(lscpu | grep "^CPU(s):" | awk '{print $2}')
 THREADS_PER_CORE=$(lscpu | grep "Thread(s) per core:" | awk '{print $4}')
-THREADS="-cputhreads $(( $CORES*$THREADS_PER_CORE-1 ))"
+THREADS="-cputhreads $(( $CORES*$THREADS_PER_CORE ))"
 
 echo ""
 echo "Setting threads to: " $echo $THREADS
