@@ -73,5 +73,10 @@
     "allowed_hashes": [
       "sha256:da081563e3d8c5ec15bb8b6f888052070726808f6bdbefb318ff55b062e3d808"
     ]
+  },
+    "docker.io/sonm/rhminer-cpu": {
+    "allowed_hashes": [
+      "sha256:400a167ee2bf6202a721d2d8edde40bdca0c4f69f217716c0e256edf1dd1603b"
+    ]
   }
 }
