@@ -1,0 +1,8 @@
+# docker image settings, required section
+container:
+  # Image name to start on worker, required param.
+  image: "sonm/foldingathome@sha256:71b9aa37d577ba4639fcf4139dfc724426b4ad992b904b56851df348a8ee353a"
+  # Env variables that will be passed to container on start.
+  env:
+    USERNAME: SONM
+    TEAM_ID: 0
