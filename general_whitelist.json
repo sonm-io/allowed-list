@@ -59,12 +59,12 @@
       "sha256:39ce0ce5005131ee817890ec4a5721fcff7ed22583d6586953a0d5b1fc642f5d"
     ]
   },
-    "docker.io/sonm/cryptodredge": {
+  "docker.io/sonm/cryptodredge": {
     "allowed_hashes": [
       "sha256:3a515e34dd9c895550ea6e58489ad3fe29ffc48575bed30066a7032bd41d64bf"
     ]
   },
-    "docker.io/sonm/t-rex": {
+  "docker.io/sonm/t-rex": {
     "allowed_hashes": [
       "sha256:150815573ff739c684261275cb0f3b0c377c288a42ab2a63446c47e3a7c65116"
     ]
@@ -74,9 +74,14 @@
       "sha256:da081563e3d8c5ec15bb8b6f888052070726808f6bdbefb318ff55b062e3d808"
     ]
   },
-    "docker.io/sonm/rhminer-cpu": {
+  "docker.io/sonm/rhminer-cpu": {
     "allowed_hashes": [
       "sha256:400a167ee2bf6202a721d2d8edde40bdca0c4f69f217716c0e256edf1dd1603b"
+    ]
+  },
+  "docker.io/sonm/foldingathome": {
+    "allowed_hashes": [
+      "sha256:71b9aa37d577ba4639fcf4139dfc724426b4ad992b904b56851df348a8ee353a"
     ]
   }
 }
