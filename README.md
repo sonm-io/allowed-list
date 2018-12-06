@@ -14,6 +14,25 @@ Docker image: [hello-world:latest](https://hub.docker.com/_/hello-world/)
 
 Docker image: [nginx:latest](https://hub.docker.com/_/nginx/)
 
+## folding@home
+
+Docker image [sonm/foldingathome](https://hub.docker.com/r/sonm/foldingathome/)
+
+More info about running [folding@home](https://foldingathome.org/) project on SONM can be found [here](https://medium.com/@almondelectriccompany/folding-home-sonm-curing-disease-with-cryptocurrency-730c485c5634).
+
+Building:
+```
+build -t sonm/foldingathome:latest ./folding-at-home
+```
+
+Enviroment variables:
+```
+USERNAME - Username for machine
+TEAM_ID  - Computation team to join
+
+more info: https://foldingathome.org/support/faq/stats-teams-usernames/
+```
+
 
 ## Monero CPU miner
 
