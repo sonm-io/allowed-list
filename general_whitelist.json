@@ -81,7 +81,7 @@
   },
   "docker.io/sonm/foldingathome": {
     "allowed_hashes": [
-      "sha256:71b9aa37d577ba4639fcf4139dfc724426b4ad992b904b56851df348a8ee353a"
+      "sha256:16c9fa7b862ffb99ef271365d0c10139c454ce7baed10b723e3f2f385a3a36b8"
     ]
   }
 }

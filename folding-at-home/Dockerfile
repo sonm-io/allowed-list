@@ -1,10 +1,9 @@
-FROM debian:stretch-slim
-# forked from https://github.com/johnktims/folding-at-home
-LABEL maintainer="john.k.tims@gmail.com"
+FROM sonm/opencl
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV USERNAME=""
 ENV TEAM_ID=""
+ENV GPU="true"
 
 RUN apt-get update && \
         apt-get install --no-install-recommends -y curl adduser bzip2  && \
@@ -19,4 +18,4 @@ RUN apt-get update && \
 # Web viewer
 EXPOSE 7396
 
-ENTRYPOINT /usr/bin/FAHClient --web-allow="0/0" --allow="0/0" --gpu=false --smp=true --power=full --user="${USERNAME}" --team="${TEAM}"
+ENTRYPOINT /usr/bin/FAHClient --web-allow="0/0" --allow="0/0"  --gpu=${GPU} --smp=true --power=full --user="${USERNAME}" --team="${TEAM}"
