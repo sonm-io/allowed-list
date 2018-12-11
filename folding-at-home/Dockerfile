@@ -18,4 +18,4 @@ RUN apt-get update && \
 # Web viewer
 EXPOSE 7396
 
-ENTRYPOINT /usr/bin/FAHClient --web-allow="0/0" --allow="0/0"  --gpu=${GPU} --smp=true --power=full --user="${USERNAME}" --team="${TEAM}"
+ENTRYPOINT /usr/bin/FAHClient --web-allow="0/0" --allow="0/0" --gpu=${GPU} --smp=true --power=full --user="${USERNAME}" --team="${TEAM}"
