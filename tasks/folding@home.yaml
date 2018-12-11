@@ -6,3 +6,4 @@ container:
   env:
     USERNAME: SONM
     TEAM_ID: 0
+    GPU: true
