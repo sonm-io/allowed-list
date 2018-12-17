@@ -172,7 +172,7 @@ BENCHMARK - if not empty, perform benchmark run instead of rendering.
 
 ## CryptoDredge miner (NVidia CUDA only)
 
-CryptoDredge 0.9.4 (multy-algo miner for NVidia GPUs).
+CryptoDredge 0.14 (multy-algo miner for NVidia GPUs).
 Needs CUDA 9.1
 See https://github.com/technobyl/CryptoDredge for details.
 
@@ -181,7 +181,7 @@ Docker image: [sonm/cryptodredge](https://hub.docker.com/r/sonm/cryptodredge/)
 Environment variables: 
 
 ```
-PARAMS      - Set params for miner (algo, pool, wallet, etc.), for example "-a phi2 -o stratum+tcp://bpool.io:8332 -u LMFBZigCMiVqksVXzvXuUcuirtAY7QMtX5"
+PARAMS      - Set params for miner (algo, pool, wallet, etc.), for example "-a x16r -o stratum+tcp://us.ravenminer.com:6789 -u RTCuL6Lod8wL9FgcCj7qKDQibiMBXh1a7F -p worker1"
 ```
 
 

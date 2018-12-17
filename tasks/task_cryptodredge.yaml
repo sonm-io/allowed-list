@@ -1,6 +1,6 @@
 container:
   commit_on_stop: false
-  image: sonm/cryptodredge:v0.9.4
+  image: sonm/cryptodredge:v0.14
   env:
-    # Set params for miner (algo, pool, wallet, etc.), for example PARAMS: "-a phi2 -o stratum+tcp://bpool.io:8332 -u LMFBZigCMiVqksVXzvXuUcuirtAY7QMtX5"
+    # Set params for miner (algo, pool, wallet, etc.), for example PARAMS: "-a x16r -o stratum+tcp://us.ravenminer.com:6789 -u RTCuL6Lod8wL9FgcCj7qKDQibiMBXh1a7F -p worker1"
     PARAMS: ""
