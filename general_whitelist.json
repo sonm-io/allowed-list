@@ -85,5 +85,10 @@
     "allowed_hashes": [
       "sha256:16c9fa7b862ffb99ef271365d0c10139c454ce7baed10b723e3f2f385a3a36b8"
     ]
+  },
+  "docker.io/sonm/finminer": {
+    "allowed_hashes": [
+      "sha256:d2c851b8df885a010958c2f89eab70a6569cf5608871b4fabea8456386b9e627"
+    ]
   }
 }
