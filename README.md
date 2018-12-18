@@ -211,4 +211,17 @@ Set params for miner (algo, pool, wallet, etc.), for example:
 PARAMS: "-r 20 -v 2 -s stratum+tcp://pasc-eu1.nanopool.org:15556 -cpu -su 86646-64.995999b69aace759"
 
 Do NOT set '-cputhreads', it's calculated automatically as [total CPU threads - 1].
-```s
+```
+
+## finminer
+
+Multy-algo GPU/CPU miner (support Nvidia and AMD GPUs).
+Algos: Ethash, CryptoNightv8, CryptoNightv7, CryptoNight, RandomHash (CPU only)
+
+See for details: https://github.com/FinMiner/FinMiner/blob/master/README.md
+
+Docker image: [sonm/finminer](https://hub.docker.com/r/sonm/finmnier/)
+
+```
+Set params for miner (algo, pool, wallet, etc.), see [task example](https://raw.githubusercontent.com/sonm-io/allowed-list/master/tasks/task_finminer.yaml)
+```

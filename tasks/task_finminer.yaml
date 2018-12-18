@@ -1,0 +1,18 @@
+container:
+  commit_on_stop: false
+  image: sonm/finminer:latest
+  env:
+    # Required    
+    WALLET: ""
+    # (Optional) Coin to mine. Supported values: ETH (by default), ETC, XMR, ETN, PASC. These have higher priority than the "algorithm" parameter. An arbitrary coin can also be specified.
+    COIN: ""
+    # (Optional) Mining algorithm. Supported values: Ethash (by default), CryptoNightv8, CryptoNightv7, CryptoNight, RandomHash
+    ALGO: ""
+    # (Optional) Mining pool. By default nanopool is used.
+    POOL: ""
+    # (Optional) Rig (worker) name.
+    WORKER: ""
+    # (Optional) Rig (worker) password.
+    PASSWORD: ""
+    # (Optional) Email to send notifications to from pool.
+    EMAIL: ""
