@@ -224,4 +224,17 @@ Docker image: [sonm/finminer](https://hub.docker.com/r/sonm/finmnier/)
 
 ```
 Set params for miner (algo, pool, wallet, etc.), see [task example](https://raw.githubusercontent.com/sonm-io/allowed-list/master/tasks/task_finminer.yaml)
+
+## tahoe-lafs
+
+Simple Tahoe LAFS storage node with OpenVPN for NAT traversal.
+
+Welcome to The Least-Authority File Store
+Tahoe-LAFS is a Free and Open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security.
+
+Offical website for Tahoe-lafs (Not the docker container)
+https://tahoe-lafs.org/trac/tahoe-lafs
+
+Offical github repository for tahoe-lafs on docker:
+https://github.com/kylemanna/docker-tahoe-lafs
 ```
