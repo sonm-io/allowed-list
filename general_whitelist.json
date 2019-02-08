@@ -62,7 +62,8 @@
   "docker.io/sonm/cryptodredge": {
     "allowed_hashes": [
       "sha256:3a515e34dd9c895550ea6e58489ad3fe29ffc48575bed30066a7032bd41d64bf",
-      "sha256:ae4028641fd3b89fb0a57b93be218885366899d107cb7c3c037e9fa5a7724b7f"
+      "sha256:ae4028641fd3b89fb0a57b93be218885366899d107cb7c3c037e9fa5a7724b7f",
+      "sha256:479ad8573a59bc0a5b10ceb7731cea8947a581f98a03d4e0d810624182f120f1"
     ]
   },
   "docker.io/sonm/t-rex": {

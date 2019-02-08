@@ -172,7 +172,7 @@ BENCHMARK - if not empty, perform benchmark run instead of rendering.
 
 ## CryptoDredge miner (NVidia CUDA only)
 
-CryptoDredge 0.14 (multy-algo miner for NVidia GPUs).
+CryptoDredge 0.16.2 (multy-algo miner for NVidia GPUs).
 Needs CUDA 9.1
 See https://github.com/technobyl/CryptoDredge for details.
 
