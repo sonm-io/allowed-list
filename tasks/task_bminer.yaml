@@ -1,5 +1,5 @@
 container:
   commit_on_stop: false
-  image: sonm/bminer@sha256:1ec212bbd37baf9e7103fc8f1b80df3db1745a0648a5dc7a20de00af44eae24d
+  image: sonm/bminer@sha256:79f7516f2c89adca7c6cf41b070ecc85b854c138d0e242d58e63cc48d03b0e5e
   env:
     PARAMS: " -uri cuckaroo29://vybegallo.sonm:foo@grin29.f2pool.com:13654"
