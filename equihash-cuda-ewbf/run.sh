@@ -12,10 +12,11 @@ fi
 SONM_SERVER="${SERVER:-eu.minexpool.nl}"
 SONM_PORT="${PORT:-3333}"
 SONM_ALGO="${ALGO:-96_5}"
+SONM_PASSWORD="${PASSWORD:-x}"
 
 if [[ -z "$WALLET" ]]; then
     echo "Please set env-variable 'WALLET' for mined funds."
     exit 1
 fi
 
-/miner --color 0 --fee 1 --server ${SONM_SERVER} --port ${SONM_PORT} --user ${WALLET} --pass x --algo ${SONM_ALGO}
+/miner --color 0 --fee 1 --server ${SONM_SERVER} --port ${SONM_PORT} --user ${WALLET} --pass ${SONM_PASSWORD} --algo ${SONM_ALGO}

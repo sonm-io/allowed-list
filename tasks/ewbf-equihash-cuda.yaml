@@ -13,3 +13,6 @@ container:
     # supported values "192_7", "144_5", "96_5", "210_9", "zhash" and "aion".
     # defualt is "96_5".
     # ALGO: <mining algo, optional>
+    # password for pool, optional
+    # default is "x"
+    # PASSWORD: "<topsecret>"
