@@ -1,4 +1,4 @@
-IMAGE ?= "sonm/equihash-cuda-ewbf:v0.5"
+IMAGE ?= "sonm/equihash-cuda-ewbf:v0.6"
 
 all: build push
 
