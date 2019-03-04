@@ -92,5 +92,10 @@
     "allowed_hashes": [
       "sha256:d2c851b8df885a010958c2f89eab70a6569cf5608871b4fabea8456386b9e627"
     ]
+  },
+  "docker.io/sonm/bminer": {
+    "allowed_hashes": [
+      "sha256:79f7516f2c89adca7c6cf41b070ecc85b854c138d0e242d58e63cc48d03b0e5e"
+    ]
   }
 }
