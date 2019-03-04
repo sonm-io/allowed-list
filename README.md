@@ -225,3 +225,16 @@ Docker image: [sonm/finminer](https://hub.docker.com/r/sonm/finmnier/)
 ```
 Set params for miner (algo, pool, wallet, etc.), see [task example](https://raw.githubusercontent.com/sonm-io/allowed-list/master/tasks/task_finminer.yaml)
 ```
+
+## bminer
+
+Multy-algo GPU miner. Support Nvidia GPUs. AMD GPUs are not supported yet.
+Algos: Cuckaroo29, Cuckatoo31, Ethash, Equihash and others.
+
+See for details: https://bminer.me/examples/
+
+Docker image: [sonm/bminer](https://hub.docker.com/r/sonm/bminer)
+
+```
+Set params for miner (algo, pool, user, etc.), see [task example](https://raw.githubusercontent.com/sonm-io/allowed-list/master/tasks/task_bminer.yaml)
+```
