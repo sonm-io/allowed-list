@@ -57,7 +57,7 @@
   "docker.io/sonm/equihash-cuda-ewbf": {
     "allowed_hashes": [
       "sha256:39ce0ce5005131ee817890ec4a5721fcff7ed22583d6586953a0d5b1fc642f5d",
-      "sha256:0dec35e9544aaea12a4b4d882d3aab4e7b7ebc53055c3d44e3095c58aa33f1a1"
+      "sha256:f5aba697870f0a29bcd573e2b5d597efb7e72dfdccd64ab4806397a546942de5"
     ]
   },
   "docker.io/sonm/cryptodredge": {
