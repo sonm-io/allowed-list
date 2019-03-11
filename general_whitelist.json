@@ -13,7 +13,8 @@
     "allowed_hashes": [
       "sha256:114feb23dbe57ea715b4d114eb1684d3fface57bb6180746fa37d55e55eb4763",
       "sha256:a4b0b1f6de5e273b89fd33fd9afd9be52e97d45e4bef69df580bbfeedd152641",
-      "sha256:cbf601b22c90993c44a6415032471538f4e55fa53e8a2ed8e45bcf870350da52"
+      "sha256:cbf601b22c90993c44a6415032471538f4e55fa53e8a2ed8e45bcf870350da52",
+      "sha256:7742c178d546560058e2a596b97935f243c72cf26150feec6858e1ace6c45214"
     ]
   },
   "docker.io/sonm/monero-amd": {
