@@ -1,4 +1,4 @@
-IMAGE ?= "sonm/cryptodredge:v0.16.2"
+IMAGE ?= "sonm/cryptodredge:v0.19.1"
 
 all: build push
 
