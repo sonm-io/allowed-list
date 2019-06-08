@@ -187,9 +187,10 @@ PARAMS      - Set params for miner (algo, pool, wallet, etc.), for example "-a x
 
 ## T-rex miner (NVidia CUDA only)
 
-T-rex 0.8.8 miner (devfee 1%) for NVidia GPUs. Needs CUDA 9.1.
+T-rex v0.11.0 miner (multy-algo miner for NVidia GPUs) for NVidia GPUs. 
+Needs CUDA 9.1.
 
-Supported algos: balloon, bcd, bitcore, c11, hmq1725, hsr, lyra2z, phi, polytimos, renesis, sha256t, skunk, sonoa, timetravel, tribus, x16r, x16s, x17, x22i, geek, dedal, x21s, astralhash, jeonghash, padihash, pawelhash.
+See https://github.com/trexminer/T-Rex for details
 
 Docker image: [sonm/t-rex](https://hub.docker.com/r/sonm/t-rex/)
 
