@@ -29,10 +29,7 @@
   },
   "docker.io/sonm/eth-claymore": {
     "allowed_hashes": [
-      "sha256:59b14e08b7625dca1b2d8bfebf48464af689f513c33e1f293cbb518b0f55678d",
-      "sha256:27cbef25286cedbdeabeaca1dba0e59ceb50d44b3c8c84dbd92093fc9a129f0a",
-      "sha256:28b4b647e6f1acac78282f0cdeac8aaa6f85c3c15e4c016298fb6d618fb53c29",
-      "sha256:8c636b59b7cb7ebd96f139c880e85a84ca9ff689cbd2fffa6187ffcaf4cd470f"
+      "sha256:86f3f53e9631650b3499bc653005997d21d8878db4c545df181f7821fd8470df"
     ]
   },
   "docker.io/sonm/redshift3d": {
@@ -66,13 +63,15 @@
       "sha256:3a515e34dd9c895550ea6e58489ad3fe29ffc48575bed30066a7032bd41d64bf",
       "sha256:ae4028641fd3b89fb0a57b93be218885366899d107cb7c3c037e9fa5a7724b7f",
       "sha256:479ad8573a59bc0a5b10ceb7731cea8947a581f98a03d4e0d810624182f120f1",
-      "sha256:4ac8dcc1e422d3ff04f233ba7900cc64d0951eb58c450d733a179dc9d1c7094a"
+      "sha256:4ac8dcc1e422d3ff04f233ba7900cc64d0951eb58c450d733a179dc9d1c7094a",
+      "sha256:affd51da58e46ea6faf044c71861a80374184bb55bb9aedec51faa14f0efeff8"
     ]
   },
   "docker.io/sonm/t-rex": {
     "allowed_hashes": [
       "sha256:150815573ff739c684261275cb0f3b0c377c288a42ab2a63446c47e3a7c65116",
-      "sha256:79b2ac1475866a93f35cad7dfc1421a331429f8564db8bff156fa5f555f66e18"
+      "sha256:79b2ac1475866a93f35cad7dfc1421a331429f8564db8bff156fa5f555f66e18",
+      "sha256:97fec7c85c4723907889fc6fe062874872a2a616c201ccfde37fc7e44c549b28"
     ]
   },
   "docker.io/cs16ds/server": {

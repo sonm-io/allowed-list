@@ -1,6 +1,6 @@
 container:
   commit_on_stop: false
-  image: sonm/t-rex@sha256:79b2ac1475866a93f35cad7dfc1421a331429f8564db8bff156fa5f555f66e18
+  image: sonm/t-rex:v0.11.0
   env:
     # Set params for miner (algo, pool, wallet, etc.), for example PARAMS: "-a lyra2z -o stratum+tcp://pool.bsod.pw:2142 -u iMjR82P4zj34FYu9ohm5jXTbbqJcdUer4L.t-rex-catch-all -p c=IFX,t-rex-catch-all"
     PARAMS: ""

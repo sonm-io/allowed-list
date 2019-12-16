@@ -1,4 +1,4 @@
-IMAGE ?= "sonm/t-rex:v0.8.8"
+IMAGE ?= "sonm/t-rex:v0.11.0"
 
 all: build push
 

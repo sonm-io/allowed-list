@@ -1,7 +1,7 @@
 # docker image settings, required section
 container:
   # Image name to start on worker, required param.
-  image: "sonm/eth-claymore@sha256:59b14e08b7625dca1b2d8bfebf48464af689f513c33e1f293cbb518b0f55678d"
+  image: "sonm/eth-claymore@sha256:86f3f53e9631650b3499bc653005997d21d8878db4c545df181f7821fd8470df"
   # Env variables that will be passed to container on start.
   env:
     WALLET: <addr>
