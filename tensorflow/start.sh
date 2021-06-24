@@ -1,4 +1,5 @@
 #!/bin/bash
 git clone $REPO
-/run_jupyter.sh --allow-root
+cd test && chmod +x
+./bianl.sh
 
